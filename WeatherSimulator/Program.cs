@@ -20,14 +20,11 @@
                 weatherConditions[i] = conditions[random.Next(conditions.Length)];
             }
 
-
-
             double average = CalculateAverage(temperatures);
 
-            Console.WriteLine($"The max temperature was {temperatures.Max()}");
             Console.WriteLine($"The max temperature was {MaxTemp(temperatures)}");
             Console.WriteLine($"The min temperature was {temperatures.Min()}");
-            Console.WriteLine($"The most common weather condition is {MostCommonCondition(weatherConditions)}");
+            Console.WriteLine($"The most common weather condition is [ {MostCommonCondition(weatherConditions)} ]");
             Console.WriteLine($"Average Temperature : {average}");
         }
 
