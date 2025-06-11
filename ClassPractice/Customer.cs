@@ -61,7 +61,7 @@ namespace ClassPractice
         
         public void showDetails()
         {
-            Console.WriteLine($"Customer Name : {Name}\nID : {_customerID}");
+            Console.WriteLine($"Customer Name : {Name}\nID : {Id}");
         }
 
     }
