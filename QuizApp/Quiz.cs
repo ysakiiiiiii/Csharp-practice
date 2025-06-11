@@ -8,11 +8,12 @@ namespace QuizApp
 {
     internal class Quiz
     {
-        private Question[] questions;
+        private Question[] _questions;
+        private int _score;
 
         public Quiz(Question[] questions)
         {
-            this.questions = questions; 
+            this._questions = questions; 
         }
 
         public void StartQuiz()
@@ -20,7 +21,7 @@ namespace QuizApp
             Console.WriteLine("Welcome to the Quiz");
             int questionNumber = 1;
 
-            foreach (Question question in questions)
+            foreach (Question question in _questions)
             {
                 Console.WriteLine($"\nQuestion {questionNumber++} : ");
                 DisplayQuestion(question);
