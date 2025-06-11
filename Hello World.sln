@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Di
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherSimulator", "WeatherSimulator\WeatherSimulator.csproj", "{319A5261-761C-4C01-86F4-F75A18F4CC21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassPractice", "ClassPractice\ClassPractice.csproj", "{15F570EA-BCCD-4C53-B712-132A715A7CBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{319A5261-761C-4C01-86F4-F75A18F4CC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{319A5261-761C-4C01-86F4-F75A18F4CC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{319A5261-761C-4C01-86F4-F75A18F4CC21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15F570EA-BCCD-4C53-B712-132A715A7CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15F570EA-BCCD-4C53-B712-132A715A7CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15F570EA-BCCD-4C53-B712-132A715A7CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15F570EA-BCCD-4C53-B712-132A715A7CBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
