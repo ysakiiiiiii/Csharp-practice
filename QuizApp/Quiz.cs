@@ -14,6 +14,7 @@ namespace QuizApp
         public Quiz(Question[] questions)
         {
             this._questions = questions; 
+            _score = 0;
         }
 
         public void StartQuiz()
@@ -29,6 +30,7 @@ namespace QuizApp
 
                 if (question.isCorrectAnswer(userChoice)) {
                     Console.WriteLine("Correct!");
+                    _score++;
                 }
                 else
                 {
@@ -37,6 +39,37 @@ namespace QuizApp
                 }
 
             }
+
+            DisplayResults();
+        }
+
+        private void DisplayResults()
+        {
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.WriteLine("╔═════════════════════════════════════════════════════════════════════════╗");
+            Console.WriteLine("║                                  Result                                 ║");
+            Console.WriteLine("╚═════════════════════════════════════════════════════════════════════════╝");
+            Console.ResetColor();
+
+            Console.WriteLine($"Quiz Finished. Your score is : {_score} out of {_questions.Length}");
+            double percentage = (double)_score/ _questions.Length;
+            if(percentage >= 0.8)
+            {
+                Console.ForegroundColor= ConsoleColor.Green;
+                Console.WriteLine("You're a trivia genius!");
+            }else if(percentage >= 0.5)
+            {
+                Console.ForegroundColor= ConsoleColor.Yellow;
+                Console.WriteLine("Good Job!");
+            }
+            else
+            {
+                Console.ForegroundColor= ConsoleColor.Red;
+                Console.WriteLine("Study Well Next Time!");
+            }
+
+            Console.ResetColor();
+
         }
 
         private void DisplayQuestion(Question question)
