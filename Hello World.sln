@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List", "List\List.csproj", "{79EC7A03-A5C4-4A74-AB65-9D9ECADF2B37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatch", "TryCatch\TryCatch.csproj", "{BC8CC2F1-BBC4-4EB8-8DF5-E6655268B980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innheritance", "Innheritance\Innheritance.csproj", "{6CD7EC31-3E0F-4ACC-B5F3-D2E06DACE9E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{79EC7A03-A5C4-4A74-AB65-9D9ECADF2B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79EC7A03-A5C4-4A74-AB65-9D9ECADF2B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79EC7A03-A5C4-4A74-AB65-9D9ECADF2B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC8CC2F1-BBC4-4EB8-8DF5-E6655268B980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC8CC2F1-BBC4-4EB8-8DF5-E6655268B980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC8CC2F1-BBC4-4EB8-8DF5-E6655268B980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC8CC2F1-BBC4-4EB8-8DF5-E6655268B980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CD7EC31-3E0F-4ACC-B5F3-D2E06DACE9E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD7EC31-3E0F-4ACC-B5F3-D2E06DACE9E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD7EC31-3E0F-4ACC-B5F3-D2E06DACE9E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD7EC31-3E0F-4ACC-B5F3-D2E06DACE9E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
