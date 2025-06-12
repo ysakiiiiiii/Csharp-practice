@@ -46,4 +46,11 @@ namespace Innheritance
             Console.WriteLine("Meowrk meowrk...");
         }
     }
+
+    class Persian : Cat
+    {
+        public override void Eat(){
+
+        }
+    }
 }
