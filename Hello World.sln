@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innheritance", "Innheritanc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract", "Abstract\Abstract.csproj", "{31E3EEDE-0AA5-473C-8D37-D80396FDBA51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{E5F403F5-F771-4F9E-9F10-B5D9E459F8E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{DB229905-74E1-4285-9772-5A2F33E474D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{31E3EEDE-0AA5-473C-8D37-D80396FDBA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31E3EEDE-0AA5-473C-8D37-D80396FDBA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31E3EEDE-0AA5-473C-8D37-D80396FDBA51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5F403F5-F771-4F9E-9F10-B5D9E459F8E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F403F5-F771-4F9E-9F10-B5D9E459F8E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F403F5-F771-4F9E-9F10-B5D9E459F8E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F403F5-F771-4F9E-9F10-B5D9E459F8E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB229905-74E1-4285-9772-5A2F33E474D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB229905-74E1-4285-9772-5A2F33E474D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB229905-74E1-4285-9772-5A2F33E474D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB229905-74E1-4285-9772-5A2F33E474D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
