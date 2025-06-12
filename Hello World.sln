@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassPractice", "ClassPract
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizApp", "QuizApp\QuizApp.csproj", "{0B2086D2-970C-4A8E-87D3-085FF6A9D1E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{AD4303A2-9D7D-4D86-BAF7-F440A0BF8230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List", "List\List.csproj", "{79EC7A03-A5C4-4A74-AB65-9D9ECADF2B37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{0B2086D2-970C-4A8E-87D3-085FF6A9D1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B2086D2-970C-4A8E-87D3-085FF6A9D1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B2086D2-970C-4A8E-87D3-085FF6A9D1E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD4303A2-9D7D-4D86-BAF7-F440A0BF8230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD4303A2-9D7D-4D86-BAF7-F440A0BF8230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD4303A2-9D7D-4D86-BAF7-F440A0BF8230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD4303A2-9D7D-4D86-BAF7-F440A0BF8230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79EC7A03-A5C4-4A74-AB65-9D9ECADF2B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79EC7A03-A5C4-4A74-AB65-9D9ECADF2B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79EC7A03-A5C4-4A74-AB65-9D9ECADF2B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79EC7A03-A5C4-4A74-AB65-9D9ECADF2B37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
