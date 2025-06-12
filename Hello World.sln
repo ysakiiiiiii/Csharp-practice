@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatch", "TryCatch\TryCat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innheritance", "Innheritance\Innheritance.csproj", "{6CD7EC31-3E0F-4ACC-B5F3-D2E06DACE9E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract", "Abstract\Abstract.csproj", "{31E3EEDE-0AA5-473C-8D37-D80396FDBA51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{6CD7EC31-3E0F-4ACC-B5F3-D2E06DACE9E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CD7EC31-3E0F-4ACC-B5F3-D2E06DACE9E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CD7EC31-3E0F-4ACC-B5F3-D2E06DACE9E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E3EEDE-0AA5-473C-8D37-D80396FDBA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E3EEDE-0AA5-473C-8D37-D80396FDBA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E3EEDE-0AA5-473C-8D37-D80396FDBA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E3EEDE-0AA5-473C-8D37-D80396FDBA51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

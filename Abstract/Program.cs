@@ -4,9 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Employee joe = new Employee("Joe", 26);
+           Car car = new Car ("BMW", "Excellent", 2006);
 
-            joe.DisplayInfo();
+            car.DisplayCarInfo();
+            car.StartEngine();
         }
     }
 
