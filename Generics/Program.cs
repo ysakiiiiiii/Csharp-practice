@@ -51,12 +51,25 @@ namespace Generics
                 Console.WriteLine($"{person.Name}, {person.Age}");
             }
 
+            sorter.Sort(people, CompareByName);
+
+            foreach (Person person in people)
+            {
+                Console.WriteLine($"{person.Name}, {person.Age}");
+            }
+
         }
 
         static int CompareByAge(Person x , Person y)
         {
             return x.Age.CompareTo(y.Age);
         }
+
+        static int CompareByName(Person x, Person y)
+        {
+            return x.Name.CompareTo(y.Name);
+        }
+
 
         public static void PrintArray(int[] array)
         {
