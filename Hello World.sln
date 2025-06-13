@@ -45,6 +45,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsApp", "EventsApp\Even
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockPriceAlert", "StockPriceAlert\StockPriceAlert.csproj", "{842DD709-6B9A-46DC-B8B2-EF3F075FBB6E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventArgs", "EventArgs\EventArgs.csproj", "{D484AB41-B654-4B27-A77A-39116571409D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegEx", "RegEx\RegEx.csproj", "{FD724DA6-38DF-4466-B306-6E2B68E5D6A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +139,14 @@ Global
 		{842DD709-6B9A-46DC-B8B2-EF3F075FBB6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{842DD709-6B9A-46DC-B8B2-EF3F075FBB6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{842DD709-6B9A-46DC-B8B2-EF3F075FBB6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D484AB41-B654-4B27-A77A-39116571409D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D484AB41-B654-4B27-A77A-39116571409D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D484AB41-B654-4B27-A77A-39116571409D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D484AB41-B654-4B27-A77A-39116571409D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD724DA6-38DF-4466-B306-6E2B68E5D6A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD724DA6-38DF-4466-B306-6E2B68E5D6A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD724DA6-38DF-4466-B306-6E2B68E5D6A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD724DA6-38DF-4466-B306-6E2B68E5D6A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
