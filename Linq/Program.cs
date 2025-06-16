@@ -12,8 +12,15 @@ namespace Linq
         {
             UniversityManager um = new UniversityManager();
 
-            um.MaleStudents();
-            um.FemaleStudents();
+            //um.MaleStudents();
+            //um.FemaleStudents();
+
+            //Console.Write("Enter University ID : ");
+            //int uniId = int.Parse(Console.ReadLine());
+
+            //um.SortStudentsByUni(uniId);
+
+            um.StudentAndUniCollection();  
             Console.ReadKey();
         }
     }
@@ -62,6 +69,63 @@ namespace Linq
             foreach (Student student in femaleStudents)
             {
                 student.Print();
+            }
+        }
+
+        public void SortStudentsByAge()
+        {
+            var sortedStudents = from student in students orderby student.Age select student;
+
+            foreach (var student in sortedStudents)
+            {
+                student.Print();
+            }
+        }
+
+        public void AllStudentsFromMMSU()
+        {
+            IEnumerable<Student> studentMMSU = from student in students
+                                               join university in universities on student.UniversityId equals university.Id
+                                               where university.Name == "MMSU"
+                                               select student;
+
+            Console.WriteLine("Studen From MMSU");
+            foreach (Student student in studentMMSU)
+            {
+                student.Print();
+            }
+
+        }
+
+        public void SortStudentsByUni(int num)
+        {
+            IEnumerable<Student> filteredStudent = from student in students
+                                               join university in universities on student.UniversityId equals university.Id
+                                               where university.Id == num
+                                               select student;
+
+            var selectedUniversity = (from university in universities
+                                     where university.Id == num
+                                     select university.Name).First();
+
+            Console.WriteLine($"Studen From {selectedUniversity}");
+            foreach (Student student in filteredStudent)
+            {
+                student.Print();
+            }
+
+        }
+
+        public void StudentAndUniCollection()
+        {
+            var newCollection = from student in students
+                                join university in universities on student.UniversityId equals university.Id
+                                orderby student.UniversityId
+                                select new { studentName = student.Name, universityName = university.Name };
+
+            foreach (var col in newCollection)
+            {
+                Console.WriteLine($"Student : {col.studentName} From {col.universityName}");
             }
         }
     }
