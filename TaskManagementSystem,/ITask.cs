@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TaskManagementSystem_
+namespace TaskManagementSystem
 {
     internal interface ITask<TResult>
     {

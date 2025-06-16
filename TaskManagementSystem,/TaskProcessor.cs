@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TaskManagementSystem_
+namespace TaskManagementSystem
 {
     internal class TaskProcessor<TTask, TResult> where TTask : ITask<TResult>
     {
@@ -17,7 +17,7 @@ namespace TaskManagementSystem_
 
         public TResult Execute()
         {
-            _task.Perform();
+            return _task.Perform();
         }
     }
 }
