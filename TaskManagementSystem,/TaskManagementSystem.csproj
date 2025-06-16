@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0E56B1C5-C82F-4DD3-9FE1-D41BC635AA0F}</ProjectGuid>
+    <ProjectGuid>{C2D0416A-7093-41DE-83B5-AAE07C2E4A16}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>GenericClass</RootNamespace>
-    <AssemblyName>GenericClass</AssemblyName>
+    <RootNamespace>TaskManagementSystem_</RootNamespace>
+    <AssemblyName>TaskManagementSystem_</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Box.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
